@@ -1,0 +1,42 @@
+# Go build
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.test
+
+# Go modules
+/pkg/mod/
+/vendor/
+
+# Logs and debug
+*.log
+*.tmp
+
+# System files
+.DS_Store
+*.swp
+
+# Env files
+.env
+
+# Secrets
+*.json
+*.key
+
+# Kubernetes
+*.yaml
+
+# Docker
+*.tar
+.dockerignore
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# Node (if frontend is added later)
+node_modules/
